@@ -1,0 +1,17 @@
+.hero {
+  padding-top: 221px;
+  background-image: url(../img/bg-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-gray);
+  color: var(--color-white);
+
+  &__content {
+    width: 590px;
+  }
+
+  &__btns {
+    padding-bottom: 351px;
+  }
+}
