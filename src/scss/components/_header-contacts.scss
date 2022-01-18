@@ -1,0 +1,36 @@
+.header-contacts {
+  @include flex-v-center;
+
+  &__link {
+    @include flex-column-start;
+
+    padding-left: 52px;
+    background-position: left center;    background-repeat: no-repeat;
+    background-size: 40px 40px;
+
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+
+    &--phone {
+      background-image: url(../img/iPhone.svg);
+    }
+
+    &--email {
+      background-image: url(../img/Chat.svg);
+    }
+  }
+
+  &__caption {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-gray);
+  }
+
+  &__value {
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-gray);
+  }
+}
